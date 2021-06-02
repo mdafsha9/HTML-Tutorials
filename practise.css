@@ -13,3 +13,8 @@ a:hover{
 a:active{
   color:blue;
 }
+table, tr, td,th{
+  border:1px solid green;
+  border-collapse:collapse;
+
+}
