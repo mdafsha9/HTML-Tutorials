@@ -21,3 +21,9 @@ table, tr, td,th{
 th{
   border:2px solid green
 }
+del{
+  background-color:red;
+}
+ins{
+  background-color:green;
+}
