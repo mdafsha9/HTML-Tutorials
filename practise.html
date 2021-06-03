@@ -174,6 +174,20 @@
       <li><data value="1">Pine-Apple</data></li>
       <li><data value="2">Banana</data></li>
       <li><data value="3">Cantalup</data></li>
-    </ul>
+    </ul><br>
+    <i>datalist tag</i>
+    <p>The datalist tag specifies list of pre-defined options for an input element.<br>The datalist element id attribute must be equal to input element's list attribute(this binds them together)</p>
+    <form action="/action_page.php" method="get">
+    <label>Choose your browser from the list:</label>
+    <input list="browsers">
+    <datalist id="browsers">
+      <option value="Chrome">
+      <option value="Safari">
+      <option value="Firefox">
+      <option value="Microsoft">
+      <option value="Opera">
+    </datalist>
+    <input type="submit">
+  </form>
   </body>
 </html>
