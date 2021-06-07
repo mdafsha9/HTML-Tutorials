@@ -30,3 +30,7 @@ ins{
 input[type=text]{
   outline-offset:25px;
 }
+i{
+  background-color:gray;
+  color:white;
+}
