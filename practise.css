@@ -27,3 +27,6 @@ del{
 ins{
   background-color:green;
 }
+input[type=text]{
+  outline-offset:25px;
+}
