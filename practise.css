@@ -31,6 +31,7 @@ input[type=text]{
   outline-offset:25px;
 }
 i{
-  background-color:gray;
+  background-color:red;
   color:white;
+  border-bottom:2px solid yellow;
 }
