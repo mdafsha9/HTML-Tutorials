@@ -8,12 +8,13 @@
     <meta http-equiv="refresh" content="30">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>HTML Forms</title>
-    <link rel="stylesheet" href="">
+    <link rel="stylesheet" href="forms.css">
   </head>
   <body>
-    <i>input tag</i>
-    <b>input types</b>
+    <h1>HTML Forms</h1>
     <form action="#" method="get">
+      <fieldset>
+        <legend>Input Types</legend>
       <label for="Fullname">Fullname:</label>
       <input type="text" placeholder="Enter your full name"><br>
       <input type="checkbox" id="vehicle1" value="bike">
@@ -63,41 +64,53 @@
       <input type="reset" id="res"><br>
       <label for="sub">Please submit your application:</label>
       <input type="submit"><br>
+    </fieldset>
     </form>
     <hr>
     <h3>HTML input attributes</h3>
-    <i>value attribute:</i>
+    <form action="#" method="get">
+      <fieldset>
+        <legend>Input Value attribute</legend>
+        <label for="fname">Firstname:</label>
+        <input type="text" value="John" id="fname"><br>
+        <label for="lname">Lastname:</label>
+        <input type="text" value="Smith" id="lname">
+      </fieldset>
+    </form>
     <p>The input value attribute specifies an initial value for an input field.</p>
+
     <form action="#" method="get">
-      <label for="fname">Firstname:</label>
-      <input type="text" value="John" id="fname"><br>
-      <label for="lname">Lastname:</label>
-      <input type="text" value="Smith" id="lname">
+      <fieldset>
+      <legend>readonly attribute</legend>
+        <label for="fname">Firstname:</label>
+        <input type="text" value="John" id="fname" readonly><br>
+        <label for="lname">Lastname:</label>
+        <input type="text" value="Smith" id="lname">
+      </fieldset>
     </form>
-    <i>readonly attribute:</i>
     <p>The readonly attribute specifies that an input field is readonly. The readonly input field cannot modified. The value of readonly input field will be sent when submitting the form!</p>
+
     <form action="#" method="get">
-      <label for="fname">Firstname:</label>
-      <input type="text" value="John" id="fname" readonly><br>
-      <label for="lname">Lastname:</label>
-      <input type="text" value="Smith" id="lname">
+      <fieldset>
+        <legend>disabled attribute</legend>
+        <label for="fname">Firstname:</label>
+        <input type="text" value="John" id="fname" disabled><br>
+        <label for="lname">Lastname:</label>
+        <input type="text" value="Smith" id="lname">
+      </fieldset>
     </form>
-    <i>disabled attribute:</i>
     <p>The disabled attribute specifies that an input field should be disabled. The disabled input field unusable and unclickable. The value of disabled input field will not be sent when submitting the form!</p>
+
     <form action="#" method="get">
-      <label for="fname">Firstname:</label>
-      <input type="text" value="John" id="fname" disabled><br>
-      <label for="lname">Lastname:</label>
-      <input type="text" value="Smith" id="lname">
+      <fieldset>
+        <legend>size and maxlength attribute</legend>
+        <label for="fname">Firstname:</label>
+        <input type="text" id="fname" size="50"><br>
+        <label for="pin">Pin Code:</label>
+        <input type="text" id="pin" size="6" maxlength="6">
+      </fieldset>
     </form>
-    <i>size and maxlength attribute</i>
     <p>The input size attribute specifies the visible width, in a characters, of an input field.<br>
       The input maxlength attribute specifies the maximum number of characters in an input field.</p>
-    <form action="#" method="get">
-      <label for="fname">Firstname:</label>
-      <input type="text" id="fname" size="50"><br>
-      <label for="pin">Pin Code:</label>
-      <input type="text" id="pin" size="6" maxlength="6">
-    </form>
   </body>
 </html>
