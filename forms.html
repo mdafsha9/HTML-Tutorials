@@ -11,7 +11,85 @@
     <link rel="stylesheet" href="">
   </head>
   <body>
-    
+    <i>input tag</i>
+    <b>input types</b>
+    <form action="#" method="get">
+      <label for="Fullname">Fullname:</label>
+      <input type="text" placeholder="Enter your full name"><br>
+      <input type="checkbox" id="vehicle1" value="bike">
+      <label for="vehicle1">Bike</label><br>
+      <input type="checkbox" id="vehicle1" value="car">
+      <label for="vehicle1">Car</label><br>
+      <input type="checkbox" id="vehicle1" value="bus">
+      <label for="vehicle1">Bus</label><br><br>
+      <input type="radio" id="male" name="gender">
+      <label for="male">Male</label><br>
+      <input type="radio" id="female" name="gender">
+      <label for="male">Female</label><br>
+      <input type="radio" id="others" name="gender">
+      <label for="male">Others</label><br>
+      <label for="ema">Please enter your email address:</label>
+      <input type="email" id="ema"><br>
+      <label for="Password">Password:</label>
+      <input type="password" placeholder="Password"><br>
+      <label for="favColor">Select your favourite color:</label>
+      <input type="color" id="favColor"><br>
+      <label for="dat">Pick last date of your previous job:</label>
+      <input type="date" id="dat"><br>
+      <label for="tim">Application submitting time:</label>
+      <input type="time" id="tim"><br>
+      <label for="datim">Expecting date of joining:</label>
+      <input type="datetime-local" id="datim"><br>
+      <label for="url">Please provide your portfolio link:</label>
+      <input type="url" if="url"><br>
+      <label for="file">Upload your file here:</label>
+      <input type="file"><br>
+      <label for="mon">Your start month of new Job:</label>
+      <input type="month" id="mon"><br>
+      <label for="wee">Your start week of new Job:</label>
+      <input type="week" id="wee"><br>
+      <label for="num">Please enter your lucky number:</label>
+      <input type="number" id="num" min="1" max="9"><br>
+      <label for="ran">Please give your percent about HTML:</label>
+      <input type="range" id="ran" min="10" max="50"><br>
+      <input type="hidden" ><br>
+      <label for="tel">Please enter your contact number:</label>
+      <input type="tel" id="tel"><br>
+      <label for="sea">Search here:</label>
+      <input type="search" id="sea"><br>
+      <label for="img">Upload your work image here:</label>
+      <input type="image" src="assets/html.png" id="img"><br>
+      <label for="res">Anything wrong reset and fill again:</label>
+      <input type="reset" id="res"><br>
+      <label for="sub">Please submit your application:</label>
+      <input type="submit"><br>
+    </form>
+    <hr>
+    <h3>HTML input attributes</h3>
+    <i>value attribute:</i>
+    <p>The input value attribute specifies an initial value for an input field.</p>
+    <form action="#" method="get">
+      <label for="fname">Firstname:</label>
+      <input type="text" value="John" id="fname"><br>
+      <label for="lname">Lastname:</label>
+      <input type="text" value="Smith" id="lname">
+    </form>
+    <i>readonly attribute:</i>
+    <p>The readonly attribute specifies that an input field is readonly. The readonly input field cannot modified. The value of readonly input field will be sent when submitting the form!</p>
+    <form action="#" method="get">
+      <label for="fname">Firstname:</label>
+      <input type="text" value="John" id="fname" readonly><br>
+      <label for="lname">Lastname:</label>
+      <input type="text" value="Smith" id="lname">
+    </form>
+    <i>disabled attribute:</i>
+    <p>The disabled attribute specifies that an input field should be disabled. The disabled input field unusable and unclickable. The value of disabled input field will not be sent when submitting the form!</p>
+    <form action="#" method="get">
+      <label for="fname">Firstname:</label>
+      <input type="text" value="John" id="fname" disabled><br>
+      <label for="lname">Lastname:</label>
+      <input type="text" value="Smith" id="lname">
+    </form>
 
   </body>
 </html>
