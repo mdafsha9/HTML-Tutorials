@@ -56,7 +56,14 @@
     <img src="assets/environment.jpg">
     <h3><mark>Responsive text size</mark></h3>
     <h1 style="font-size:10vw">Responsive text size</h1>
-    <p style="font-size:2vw">The text size can be set to <q>vw</q> units which means viewport width.<br>
+    <p style="font-size:4vw">The text size can be set to <q>vw</q> units which means viewport width.<br>
     That way the text size will follow the size of the browser window.</p>
+    <h3><mark>show different image depending on browser window size</mark></h3>
+    <p>The html picture element allows we to define different images for different browser window size.</p>
+    <picture>
+      <source srcset="assets/html.png" media="(max-width:1500px)">
+      <source srcset="assets/javascript.png" media="(max-width:600px)">
+      <img src="assets/html.png" alt="HTML" style="width:auto;">
+    </picture>
   </body>
 </html>
