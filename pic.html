@@ -2,8 +2,14 @@
 <html>
   <head>
     <title>Picture element</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
   </head>
   <body>
-
+    <picture>
+  <source media="(min-width: 650px)" srcset="assets/1.jpg">
+  <source media="(min-width: 465px)" srcset="assets/2.jpg">
+  <img src="assets/3.png">
+</picture>
   </body>
 </html>
